@@ -21,6 +21,7 @@ import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
 import com.android.settings.R;
 
+import com.descendant.settings.fragments.WakeLockBlocker;
 import java.util.Arrays;
 import java.util.HashSet;
 
