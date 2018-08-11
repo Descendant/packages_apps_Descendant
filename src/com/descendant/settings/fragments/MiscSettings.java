@@ -22,6 +22,7 @@ import android.provider.Settings;
 import com.android.settings.R;
 
 import com.descendant.settings.fragments.WakeLockBlocker;
+import com.descendant.settings.fragments.AlarmBlocker;
 import java.util.Arrays;
 import java.util.HashSet;
 

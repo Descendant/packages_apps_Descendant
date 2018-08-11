@@ -29,6 +29,7 @@ import com.android.settings.R;
 import com.descendant.settings.fragments.MiscSettings;
 import com.android.settings.SettingsPreferenceFragment;
 
+
 public class DescendantSettings extends SettingsPreferenceFragment {
 
     @Override

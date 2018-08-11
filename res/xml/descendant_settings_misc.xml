@@ -24,4 +24,10 @@
         android:title="@string/wakelock_blocker_title"
         android:summary="@string/wakelock_blocker_summary"
         android:fragment="com.descendant.settings.fragments.WakeLockBlocker"/>
+
+        <Preference
+             android:id="@+id/alarm_blocker"
+             android:fragment="com.descendant.settings.fragments.AlarmBlocker"
+	     android:icon="@drawable/ic_alarmblocker"
+             android:title="@string/alarm_blocker" />
 </PreferenceScreen>
