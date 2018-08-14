@@ -18,4 +18,10 @@
     android:title="@string/quicksettings_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <com.descendant.settings.preferences.SystemSettingSwitchPreference
+        android:key="qs_tile_tinting_enable"
+        android:title="@string/qs_tile_theme_title"
+        android:summary="@string/qs_tile_theme_summary"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
