@@ -1,4 +1,4 @@
-package com.descendant.settings.fragments;
+package org.descendant.settings.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 import android.app.Activity;

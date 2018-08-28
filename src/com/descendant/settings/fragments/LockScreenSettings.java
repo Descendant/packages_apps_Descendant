@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.descendant.settings.fragments;
+package org.descendant.settings.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 

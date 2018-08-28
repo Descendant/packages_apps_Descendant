@@ -20,7 +20,7 @@
 
     <PreferenceScreen
         android:key="volume_key"
-        android:fragment="com.descendant.settings.fragments.VolumeRockerSettings"
+        android:fragment="org.descendant.settings.fragments.VolumeRockerSettings"
         android:title="@string/volume_title" />
 
 </PreferenceScreen>

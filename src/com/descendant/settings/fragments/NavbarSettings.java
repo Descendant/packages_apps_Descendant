@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.descendant.settings.fragments;
+package org.descendant.settings.fragments;
 
 import java.util.ArrayList;
 

@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.descendant.settings;
+package org.descendant.settings;
 
 import com.android.internal.logging.nano.MetricsProto;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.descendant.settings.preferences;
+package org.descendant.settings.preferences;
 
 import android.content.Context;
 import android.provider.Settings;
