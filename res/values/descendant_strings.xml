@@ -63,4 +63,6 @@
     <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
     <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged.</string>
 
+    <!-- AppOps -->
+    <string name="app_ops_settings">AppOps</string>
 </resources>
