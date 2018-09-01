@@ -40,7 +40,7 @@ import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.nitrogen.settings.preferences.Utils;
+import org.descendant.settings.preferences.Utils;
 
 public class PowerMenuSettings extends SettingsPreferenceFragment
                 implements Preference.OnPreferenceChangeListener {
