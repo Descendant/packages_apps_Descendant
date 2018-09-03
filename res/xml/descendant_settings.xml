@@ -17,33 +17,34 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/descendant_settings_title" >
 
-        <!-- Status Bar -->
+        <!-- Status Bar 
         <Preference
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
             android:fragment="org.descendant.settings.fragments.StatusBarSettings" 
-            android:icon="@drawable/ic_settings_statusbar"/>
+            android:icon="@drawable/ic_settings_statusbar"/> -->
 
-        <!-- Quick Settings panel -->
+
+        <!-- Quick Settings panel
         <Preference
             android:key="quicksettings_category"
             android:title="@string/quicksettings_title"
             android:fragment="org.descendant.settings.fragments.QuickSettings"
-            android:icon="@drawable/ic_settings_quicksettings"/>
+            android:icon="@drawable/ic_settings_quicksettings"/> -->
 
-        <!-- Buttons -->
+        <!-- Buttons
         <Preference
             android:key="buttonsettings_category"
             android:title="@string/button_title"
             android:fragment="org.descendant.settings.fragments.ButtonSettings"
-            android:icon="@drawable/ic_settings_buttons"/>
+            android:icon="@drawable/ic_settings_buttons"/> -->
 
-        <!-- Navigation Bar -->
+        <!-- Navigation Bar 
         <Preference
             android:key="navigationbar_category"
             android:title="@string/navbar_title" 
             android:fragment="org.descendant.settings.fragments.NavbarSettings"
-            android:icon="@drawable/ic_settings_navbar"/>
+            android:icon="@drawable/ic_settings_navbar"/> -->
 
         <!-- Gestures -->
         <Preference
@@ -66,19 +67,19 @@
             android:fragment="org.descendant.settings.fragments.PowerMenuSettings"
             android:icon="@drawable/ic_settings_powermenu"/>
 
-        <!-- Recents -->
+        <!-- Recents
         <Preference
             android:key="recents_category"
             android:title="@string/recents_title"
             android:fragment="org.descendant.settings.fragments.RecentsSettings"
-            android:icon="@drawable/ic_settings_recents"/>
+            android:icon="@drawable/ic_settings_recents"/> -->
 
-        <!-- Notifications -->
+        <!-- Notifications 
         <Preference
             android:key="notifications_category"
             android:title="@string/notifications_title"
             android:fragment="org.descendant.settings.fragments.NotificationSettings"
-            android:icon="@drawable/ic_settings_notifications"/>
+            android:icon="@drawable/ic_settings_notifications"/> -->
 
         <!-- Misc -->
         <Preference
