@@ -26,7 +26,7 @@
 
          <org.descendant.settings.preferences.SystemSettingSwitchPreference
             android:key="powermenu_power"
-	    android:icon="@drawable/ic_settings_powermenu.xml"
+	    android:icon="@drawable/ic_settings_powermenu"
             android:title="@string/powermenu_power"
             android:defaultValue="true" />
           <org.descendant.settings.preferences.SystemSettingSwitchPreference
@@ -51,7 +51,7 @@
             android:defaultValue="false" />
           <org.descendant.settings.preferences.SystemSettingSwitchPreference
             android:key="powermenu_settings"
-	    android:icon="@drawable/ic_settings_gear.xml"
+	    android:icon="@drawable/ic_settings_gear"
             android:title="@string/powermenu_settings"
             android:defaultValue="false" />
           <org.descendant.settings.preferences.SystemSettingSwitchPreference
