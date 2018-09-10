@@ -19,25 +19,26 @@
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
         <Preference
-             android:key="wakelock_blocker"
-             android:fragment="org.descendant.settings.fragments.WakeLockBlocker"
-             android:title="@string/wakelock_blocker_title" />
-
-        <Preference
              android:id="@+id/alarm_blocker"
+             android:icon="@drawable/ic_settings_alarm"
              android:fragment="org.descendant.settings.fragments.AlarmBlocker"
              android:title="@string/alarm_blocker" />
 
+        <Preference
+             android:title="@string/app_ops_settings"
+             android:icon="@drawable/ic_settings_appops"
+             android:fragment="com.android.settings.applications.appops.AppOpsSummary"/>
+
+        <Preference
+             android:key="wakelock_blocker"
+             android:icon="@drawable/ic_settings_wakelock"
+             android:fragment="org.descendant.settings.fragments.WakeLockBlocker"
+             android:title="@string/wakelock_blocker_title" />
+
         <org.descendant.settings.preferences.GlobalSettingSwitchPreference
             android:key="wake_when_plugged_or_unplugged"
-	    android:icon="@drawable/ic_settings_wakeup"
             android:title="@string/wakeup_when_plugged_unplugged_title"
             android:summary="@string/wakeup_when_plugged_unplugged_summary"
             android:defaultValue="true" />
-
-    <Preference
-        android:title="@string/app_ops_settings"
-	android:icon="@drawable/ic_settings_appops"
-        android:fragment="com.android.settings.applications.appops.AppOpsSummary"/>
 
 </PreferenceScreen>
