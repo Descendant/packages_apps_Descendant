@@ -23,6 +23,11 @@
              android:fragment="org.descendant.settings.fragments.WakeLockBlocker"
              android:title="@string/wakelock_blocker_title" />
 
+        <Preference
+             android:id="@+id/alarm_blocker"
+             android:fragment="org.descendant.settings.fragments.AlarmBlocker"
+             android:title="@string/alarm_blocker" />
+
         <org.descendant.settings.preferences.GlobalSettingSwitchPreference
             android:key="wake_when_plugged_or_unplugged"
 	    android:icon="@drawable/ic_settings_wakeup"
