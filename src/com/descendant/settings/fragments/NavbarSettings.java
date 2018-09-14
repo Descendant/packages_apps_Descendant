@@ -45,8 +45,7 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import org.descendant.settings.preferences.SystemSettingSwitchPreference;
 
-public class NavbarSettings extends SettingsPreferenceFragment implements
-	OnPreferenceChangeListener, Indexable {
+public class NavbarSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     private static final String NAVIGATION_BAR_SHOW = "navigation_bar_show";
     private static final String USE_BOTTOM_GESTURE_NAVIGATION = "use_bottom_gesture_navigation";
