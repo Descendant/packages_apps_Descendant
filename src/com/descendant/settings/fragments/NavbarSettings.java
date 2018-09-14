@@ -17,6 +17,7 @@
 package org.descendant.settings.fragments;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import android.app.AlertDialog;
 import android.content.ContentResolver;
@@ -26,6 +27,7 @@ import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.UserHandle;
 import android.os.RemoteException;
 import android.support.v7.preference.ListPreference;
