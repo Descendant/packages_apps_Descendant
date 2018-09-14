@@ -18,4 +18,11 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" >
 
+    <org.descendant.settings.preferences.SystemSettingSwitchPreference
+        android:key="use_bottom_gesture_navigation"
+        android:icon="@drawable/ic_settings_op"
+        android:title="@string/use_bottom_gesture_title"
+        android:summary="@string/use_bottom_gesture_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>

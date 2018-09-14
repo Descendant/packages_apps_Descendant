@@ -17,13 +17,13 @@
     <!-- Categories -->
     <string name="button_title">Buttons</string>
     <string name="gestures_title">Gestures</string>
-    <string name="lockscreen_title">Lock screen</string>
+    <string name="lockscreen_title">Lockscreen</string>
     <string name="misc_title">Miscellaneous</string>
-    <string name="navbar_title">Navigation bar</string>
+    <string name="navbar_title">Navbar</string>
     <string name="powermenu_title">Power menu</string>
     <string name="quicksettings_title">Quick Settings</string>
     <string name="recents_title">Recents apps</string>
-    <string name="statusbar_title">Status bar</string>
+    <string name="statusbar_title">Statusbar</string>
     <string name="volume_title">Volume rockers</string>
     <string name="notifications_title">Notifications</string>
 
@@ -87,6 +87,6 @@
 
     <!-- OP Gestures -->
     <string name="use_bottom_gesture_title">Use swipe up gestures for navigation</string>
-    <string name="use_bottom_gesture_summary">Works only with navigation bar disable</string>
+    <string name="use_bottom_gesture_summary">Navbar will be disabled. Swipe up from left/right is back. Swipe up from bottom center is home. Swipe up from bottom center and hold is recents.</string>
 
 </resources>
