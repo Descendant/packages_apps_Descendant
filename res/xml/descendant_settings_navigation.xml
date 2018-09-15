@@ -25,6 +25,12 @@
         android:summary="@string/use_bottom_gesture_summary"
         android:defaultValue="false" />
 
+    <org.descendant.settings.preferences.SystemSettingSwitchPreference 
+        android:key="navigation_bar_show"
+        android:title="@string/enable_navigation_bar_title"
+        android:summary="@string/enable_navigation_bar_summary"
+        android:defaultValue="true" />
+
     <Preference
             android:title="@string/navbar_tuner_title"
             android:summary="@string/navbar_tuner_summary"

@@ -87,7 +87,7 @@
 
     <!-- OP Gestures -->
     <string name="use_bottom_gesture_title">Use swipe up gestures for navigation</string>
-    <string name="use_bottom_gesture_summary">Navbar will be disabled. Swipe up from left/right is back. Swipe up from bottom center is home. Swipe up from bottom center and hold is recents.</string>
+    <string name="use_bottom_gesture_summary">Navbar needs to be disabled. Swipe up from left/right is back. Swipe up from bottom center is home. Swipe up from bottom center and hold is recents.</string>
 
     <!--SystemUI Tuner -->
     <string name="statusbar_tuner_title">Statusbar items</string>
@@ -103,4 +103,9 @@
     <string name="volbtn_up_zen_summary">allow volume up to exit do not disturb mode</string>
     <string name="vol_zen_title">Do not disturb switch</string>
     <string name="vol_zen_summary">Show do not disturb swith on volume panel</string>
+
+    <!-- Navbar Settings -->
+    <string name="enable_navigation_bar_title">Enable navigation bar</string>
+    <string name="enable_navigation_bar_summary">Option to enable or disable the navigation bar</string>
+
 </resources>
