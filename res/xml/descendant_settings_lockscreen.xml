@@ -34,6 +34,7 @@
 
     <org.descendant.settings.preferences.SystemSettingSwitchPreference 
         android:key="double_tap_sleep_lockscreen"
+	android:icon="@drawable/ic_settings_dptap"
         android:title="@string/double_tap_sleep_lockscreen"
         android:defaultValue="true" />
 
