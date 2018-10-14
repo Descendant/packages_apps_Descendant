@@ -20,27 +20,27 @@
 
     <org.descendant.settings.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_battery_info"
-	android:icon="@drawable/ic_settings_battery"
+	android:icon="@drawable/ic_circle_settings_battery"
         android:title="@string/lockscreen_battery_info_title"
         android:summary="@string/lockscreen_battery_info_summary"
         android:defaultValue="true" />
 
     <org.descendant.settings.preferences.SecureSettingSwitchPreference
         android:key="face_auto_unlock"
-	android:icon="@drawable/ic_settings_face"
+	android:icon="@drawable/ic_circle_settings_face"
         android:title="@string/face_auto_unlock_title"
         android:summary="@string/face_auto_unlock_summary"
         android:defaultValue="false" />
 
     <org.descendant.settings.preferences.SystemSettingSwitchPreference 
         android:key="double_tap_sleep_lockscreen"
-	android:icon="@drawable/ic_settings_dptap"
+	android:icon="@drawable/ic_circle_settings_dptap"
         android:title="@string/double_tap_sleep_lockscreen"
         android:defaultValue="true" />
 
     <Preference
             android:title="@string/lockscreen_shortcuts_title"
-	    android:icon="@drawable/ic_settings_shortcut"
+	    android:icon="@drawable/ic_circle_settings_shortcut"
             android:summary="@string/lockscreen_shortcuts_summary">
         <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="com.android.systemui"
