@@ -59,4 +59,10 @@
             android:entries="@array/battery_percent_entries"
             android:entryValues="@array/battery_percent_values" 
             android:defaultValue="0" />
+
+    <PreferenceScreen
+        android:key="suspend_actions"
+        android:title="@string/screen_state_toggles_title"
+        android:fragment="org.descendant.settings.fragments.SuspendActions" />
+
 </PreferenceScreen>
