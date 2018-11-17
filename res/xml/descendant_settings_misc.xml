@@ -62,6 +62,7 @@
 
     <PreferenceScreen
         android:key="suspend_actions"
+        android:icon="@drawable/ic_settings_suspendactions"
         android:title="@string/screen_state_toggles_title"
         android:fragment="org.descendant.settings.fragments.SuspendActions" />
 
