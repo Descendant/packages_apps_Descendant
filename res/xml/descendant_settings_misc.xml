@@ -24,10 +24,10 @@
              android:fragment="org.descendant.settings.fragments.AlarmBlocker"
              android:title="@string/alarm_blocker" />
 
-        <Preference
+<!--        <Preference
              android:title="@string/app_ops_settings"
              android:icon="@drawable/ic_settings_appops"
-             android:fragment="com.android.settings.applications.appops.AppOpsSummary"/>
+             android:fragment="com.android.settings.applications.appops.AppOpsSummary"/> -->
 
         <Preference
              android:key="wakelock_blocker"
