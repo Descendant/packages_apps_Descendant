@@ -20,8 +20,9 @@
 
     <org.descendant.settings.preferences.SystemSettingSwitchPreference
         android:key="less_boring_heads_up"
+        android:icon="@drawable/ic_settings_annoyingheadsup"
         android:title="@string/less_boring_heads_up_title"
         android:summary="@string/less_boring_heads_up_summary"
-        android:defaultValue="true" />
+        android:defaultValue="falsee" />
 
 </PreferenceScreen>
