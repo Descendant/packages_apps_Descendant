@@ -18,4 +18,11 @@
 	android:title="@string/notifications_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <org.descendant.settings.preferences.SystemSettingSwitchPreference
+        android:key="less_boring_heads_up"
+        android:icon="@drawable/ic_settings_annoyingheadsup"
+        android:title="@string/less_boring_heads_up_title"
+        android:summary="@string/less_boring_heads_up_summary"
+        android:defaultValue="falsee" />
+
 </PreferenceScreen>

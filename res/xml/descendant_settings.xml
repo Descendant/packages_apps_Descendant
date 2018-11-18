@@ -24,6 +24,12 @@
             android:fragment="org.descendant.settings.fragments.StatusBarSettings" 
             android:icon="@drawable/ic_settings_statusbar"/> 
 
+        <!-- Volume Rocker -->
+        <Preference
+            android:key="volume_category"
+            android:title="@string/volume_title" 
+            android:fragment="org.descendant.settings.fragments.VolumeRockerSettings"
+            android:icon="@drawable/ic_settings_volume"/>
 
         <!-- Quick Settings panel
         <Preference
@@ -37,7 +43,7 @@
             android:key="buttonsettings_category"
             android:title="@string/button_title"
             android:fragment="org.descendant.settings.fragments.ButtonSettings"
-            android:icon="@drawable/ic_settings_buttons"/> -->
+            android:icon="@drawable/ic_settings_buttons"/>  -->
 
         <!-- Navigation Bar --> 
         <Preference
@@ -74,12 +80,12 @@
             android:fragment="org.descendant.settings.fragments.RecentsSettings"
             android:icon="@drawable/ic_settings_recents"/> -->
 
-        <!-- Notifications 
+        <!-- Notifications -->
         <Preference
             android:key="notifications_category"
             android:title="@string/notifications_title"
             android:fragment="org.descendant.settings.fragments.NotificationSettings"
-            android:icon="@drawable/ic_settings_notifications"/> -->
+            android:icon="@drawable/ic_settings_notifications"/> 
 
         <!-- Misc -->
         <Preference
